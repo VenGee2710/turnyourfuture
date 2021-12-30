@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="utf-8" />
+        <title>Future Pvt Ltd</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Future Pvt Ltd" />
+        <meta name="keywords" content="Future Pvt Ltd" />
+        <meta name="author" content="Future Pvt Ltd" />
+        <meta name="email" content="turnyourfuturn@gmail.com" />
+        <meta name="website" content="https://turnyourfuturn.com/" />
+        <meta name="Version" content="v1.0.0" />
+        <!-- favicon -->
+        <link href="images/favicon.ico" rel="shortcut icon">
+        <!-- Bootstrap -->
+        <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+        <link href="css/tiny-slider.css" rel="stylesheet" type="text/css" />
+        <link href="css/tobii.min.css" rel="stylesheet" type="text/css" />
+        <link href="css/materialdesignicons.min.css" rel="stylesheet" type="text/css" />
+        <link href="../../unicons.iconscout.com/release/v3.0.6/css/line.css" rel="stylesheet" />
+        <!-- Main Css -->
+        <link href="css/style.min.css" rel="stylesheet" type="text/css" />
+
+    </head>
+
+    <body>
+        <header id="topnav" class="defaultscroll sticky">
+            <div class="container">
+                <a class="logo" href="index.html">
+                    <img src="images/Logo.jpg" class="l-light"  alt="">
+                </a>
+                <div class="menu-extras">
+                    <div class="menu-item">
+                        <a class="navbar-toggle" id="isToggle" onclick="toggleMenu()">
+                            <div class="lines">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <ul class="buy-button list-inline mb-0">
+                    <li class="list-inline-item search-icon mb-0">
+                        <div class="dropdown">
+                            <button type="button" class="btn btn-link text-decoration-none dropdown-toggle mb-0 p-0" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <i class="uil uil-search h5 text-dark nav-light-icon-dark mb-0"></i>
+                                <i class="uil uil-search h5 text-white nav-light-icon-white mb-0"></i>
+                            </button>
+                            <div class="dropdown-menu dd-menu dropdown-menu-end bg-white shadow rounded border-0 mt-4 py-0" style="width: 300px;">
+                                <form class="p-4">
+                                    <input type="text" id="text" name="name" class="form-control border bg-white" placeholder="Search...">
+                                </form>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+
+                <div id="navigation">
+                    <ul class="navigation-menu nav-right nav-light">
+                        <li><a href="index.html"> Home</a>  </li> 
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="contact.html">Contact us</a></li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+   
+        
+        <section class="home-slider position-relative mt-85">
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="3000">
+                        <div class="bg-home d-flex align-items-center" style="background: url('images/banner.jpg') top;">
+                            <div class="bg-overlay"></div>
+                            <div class="container">
+                                <div class="row justify-content-center m-b-55">
+                                    <div class="col-lg-12">
+                                        <div class="title-heading m-b-55">
+                                            <h5>Getting bored of learning by books and syllabus?</h5>
+                                            <h4 class="display-3 fw-bold mb-3">Future is an education<br>
+                                                system Where we guide<br>
+                                                to choose right path.</h4>
+                                            <p class="para-desc">We are here to guide you for a better future. </p>
+                                            
+                                            <div>
+                                                <a href="contact.html" class="btn btn-lg btn-primary">Get Started</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- <div class="carousel-item" data-bs-interval="3000">
+                        <div class="bg-home d-flex align-items-center" style="background: url('images/bg/start02.jpg') top;">
+                            <div class="bg-overlay"></div>
+                            <div class="container">
+                                <div class="row justify-content-center mt-5">
+                                    <div class="col-lg-12 text-center">
+                                        <div class="title-heading mt-4">
+                                            <img src="images/logo-icon-light.png" height="260" alt="">
+                                            <h3 class="fw-bold text-white mb-0 mt-4">Investment & Consultant</h3>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <div class="bg-home d-flex align-items-center" style="background: url('images/bg/start03.jpg') top;">
+                            <div class="bg-overlay"></div>
+                            <div class="container">
+                                <div class="row justify-content-center mt-5">
+                                    <div class="col-lg-12 text-center">
+                                        <div class="title-heading mt-4">
+                                            <h4 class="display-3 fw-bold text-white mb-3">We Prepare Startups <br> For Developers</h4>
+                                            <p class="text-white-50 mx-auto para-desc">Our design projects are fresh and simple and will benefit your business greatly. Learn more about our work!</p>
+                                            
+                                            <div class="mt-4 pt-2">
+                                                <a href="page-aboutus.html" class="btn btn-lg btn-primary">Get Started</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div> -->
+                </div>
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+            </div>
+        </section>
+    
+        <section class="section p_0">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-12">
+                        <div class="features-absolute">
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <div class="features ht_145 feature-primary rounded px-4 py-5 bg-white d-flex align-items-center">
+                                        <div class="fea-icon rounded-circle">
+                                            <img src="images/1.jpg" alt="">
+                                        </div>
+            
+                                        <div class="content flex-1 ms-3">
+                                            <a href="service.html" class="title h5 text-dark">Our Mission</a>
+                                            <p class="text-muted mt-2 mb-0">To completely transform or eradicate the method of career building from the sake of score to the sake of growth in terms of industrial design, standards and patters</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="col-md-4">
+                                    <div class="features ht_145 feature-primary rounded px-4 py-5 bg-white d-flex align-items-center">
+                                        <div class="fea-icon rounded-circle ">
+                                            <img src="images/2.jpg" alt="">
+                                        </div>
+            
+                                        <div class="content flex-1 ms-3">
+                                            <a href="service.html" class="title h5 text-dark">Who we are</a>
+                                            <p class="text-muted mt-2 mb-0">Experienced Professionals in various platforms connected together to provide an exposure in various technologies to build a strong career</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="col-md-4 ">
+                                    <div class="features ht_145 feature-primary rounded px-4 py-5 bg-white  d-flex align-items-center">
+                                        <div class="fea-icon rounded-circle ">
+                                            <img src="images/3.jpg" alt="">
+                                        </div>
+            
+                                        <div class="content flex-1 ms-3">
+                                            <a href="service.html" class="title h5 text-dark">How we are?</a>
+                                            <p class="text-muted mt-2 mb-0">Rather than just training based on the syllabus and subjects, we train the candidate according to the current trends in various technologies. </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+            <section class="section">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-12">
+                            <div class="section-title text-center mb-4 pb-2">
+                                <h6 class="text-primary">Our Services</h6>
+                                <h4 class="title fw-semibold mt-2 mb-3">Transform Your Life Through</h4>
+                                <p class="text-muted para-desc mx-auto mb-0">We will be conducting life changing events where students can choose their career.</p>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="row justify-content-center">
+                        <div class="col-lg-4 col-md-6 mt-4 pt-2">
+                            <div class="card blog blog-primary rounded overflow-hidden">
+                                <div class="image position-relative overflow-hidden">
+                                    <img src="images/blog/01.jpg" class="img-fluid" alt="">
+    
+                                    <div class="blog-tag">
+                                        <a href="javascript:void(0)" class="badge bg-light">Corporate</a>
+                                    </div>
+                                </div>
+    
+                                <div class="card-body content">
+                                    <a href="about.html" class="h5 title blog_title text-dark d-block mb-0">Industrial Standard</a>
+                                    <p class="text-muted mt-2 mb-2">We train the candidates based on the Standardised Industrial Approach and assure for the unique methodology in delivering the knowledge.</p>
+                                    <a href="services.html" class="link text_link">See Details <img src="images/arrow.jpg" class="img-fluid" alt=""></a>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <div class="col-lg-4 col-md-6 mt-4 pt-2">
+                            <div class="card blog blog-primary rounded overflow-hidden">
+                                <div class="image position-relative overflow-hidden">
+                                    <img src="images/blog/02.jpg" class="img-fluid" alt="">
+    
+                                    <div class="blog-tag">
+                                        <a href="javascript:void(0)" class="badge bg-light">Branding</a>
+                                    </div>
+                                </div>
+    
+                                <div class="card-body content">
+                                    <a href="about.html" class="h5 title text-dark blog_title d-block mb-0">In-Person Training and guidance </a>
+                                    <p class="text-muted mt-2 mb-2">Allotted individuals professionals to the trainee based on the chosen technology.</p>
+                                    <a href="services.html" class="link text_link">See Details  <img src="images/arrow.jpg" class="img-fluid" alt=""></a>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="col-lg-4 col-md-6 mt-4 pt-2">
+                            <div class="card blog blog-primary  rounded overflow-hidden">
+                                <div class="image position-relative overflow-hidden">
+                                    <img src="images/blog/03.jpg" class="img-fluid" alt="">
+    
+                                    <div class="blog-tag">
+                                        <a href="javascript:void(0)" class="badge bg-light">Technology</a>
+                                    </div>
+                                </div>
+    
+                                <div class="card-body content">
+                                    <a  href="about.html" class="blog_title h5 title text-dark d-block mb-0">Live Project’s Exposure</a>
+                                    <p class="text-muted mt-2 mb-2"> Experience on working in Live Projects and Assignments with Certification of Intern.</p>
+                                    <a  href="services.html" class="link text_link">See Details  <img src="images/arrow.jpg" class="img-fluid" alt=""></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+            
+
+        
+      
+
+
+        
+        <section class="section bg-light overflow-hidden">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="row justify-content-center">
+                        <div class="col-md-12">
+                            <div class="section-title text-center text-md-start mb-4 pb-2">
+                                <h4 class="title text-center fw-semibold mb-4">Meet Our Leaders</h4>
+                                <p class="para-desc text-muted text-center mx-auto mb-0">Explore the leaders to know more about our strength.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="me-lg-5">
+                          
+
+                            <div class="row">                                
+                                <div class="col-md-9 mt-4 pt-2">
+                                    <div class="features feature-primary rounded border-0 d-flex">
+                                        <div class="fea-icon im_new rounded-circle text-white shadow avatar avatar-md-sm" >
+                                            <img src="images/blog/seasonraj 1.jpg" class="img-fluid rounded shadow" alt="">
+                                        </div>
+            
+                                        <div class="content flex-1 ms-3">
+                                            <a href="page-single-service.html" class="title h5 text-dark">Seasonraj Y R</a>
+                                            <p class="text-muted mt-2 mb-0">Managing Director</p>
+                        
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="col-md-9 mt-4 pt-2">
+                                    <div class="features feature-primary rounded border-0 d-flex">
+                                        <div class="fea-icon im_new rounded-circle text-white shadow avatar avatar-md-sm" >
+                                            <img src="images/client/1.jpg" class="img-fluid rounded shadow" alt="">
+                                        </div>
+            
+                                        <div class="content flex-1 ms-3">
+                                            <a href="page-single-service.html" class="title h5 text-dark">Mansoor Ali</a>
+                                            <p class="text-muted mt-2 mb-0">Chief Executive Officer</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="me-lg-5">
+                           
+
+                            <div class="row">                                
+                                <div class="col-md-9 mt-4 pt-2">
+                                    <div class="features feature-primary rounded border-0 d-flex">
+                                        <div class="fea-icon im_new rounded-circle text-white shadow avatar avatar-md-sm" >
+                                            <img src="images/client/5.jpg" class="img-fluid rounded shadow" alt="">
+                                        </div>
+            
+                                        <div class="content flex-1 ms-3">
+                                            <a href="page-single-service.html" class="title h5 text-dark">Surendar</a>
+                                            <p class="text-muted mt-2 mb-0">Chief Technical Officer</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="col-md-9 mt-4 pt-2">
+                                    <div class="features feature-primary rounded border-0 d-flex">
+                                        <div class="fea-icon im_new rounded-circle text-white shadow avatar avatar-md-sm" >
+                                            <img src="images/client/2.jpg" class="img-fluid rounded shadow" alt="">
+                                        </div>
+            
+                                        <div class="content flex-1 ms-3">
+                                            <a href="page-single-service.html" class="title h5 text-dark">Mohan kumar</a>
+                                            <p class="text-muted mt-2 mb-0">Chief - Human Resources</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                     <div class="col-md-6">
+                        <div class="me-lg-5">
+                           
+
+                            <div class="row">                                
+                                <div class="col-md-9 mt-4 pt-2">
+                                    <div class="features feature-primary rounded border-0 d-flex">
+                                        <div class="fea-icon im_new rounded-circle text-white shadow avatar avatar-md-sm" >
+                                            <img src="images/client/6.jpg" class="img-fluid rounded shadow" alt="">
+                                        </div>
+            
+                                        <div class="content flex-1 ms-3">
+                                            <a href="page-single-service.html" class="title h5 text-dark">Venkatesh waran</a>
+                                            <p class="text-muted mt-2 mb-0">Chief Adminstrative Officer</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="col-md-9 mt-4 pt-2">
+                                    <div class="features feature-primary rounded border-0 d-flex">
+                                        <div class="fea-icon im_new rounded-circle text-white shadow avatar avatar-md-sm" >
+                                            <img src="images/client/8.jpg" class="img-fluid rounded shadow" alt="">
+                                        </div>
+            
+                                        <div class="content flex-1 ms-3">
+                                            <a href="page-single-service.html" class="title h5 text-dark">Viji</a>
+                                            <p class="text-muted mt-2 mb-0">Chief Operational Officer</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="me-lg-5">
+                           
+
+                            <div class="row">                                
+                                <div class="col-md-9 mt-4 pt-2">
+                                    <div class="features feature-primary rounded border-0 d-flex">
+                                        <div class="fea-icon im_new rounded-circle text-white shadow avatar avatar-md-sm" >
+                                            <img src="images/client/3.jpg" class="img-fluid rounded shadow" alt="">
+                                        </div>
+            
+                                        <div class="content flex-1 ms-3">
+                                            <a href="page-single-service.html" class="title h5 text-dark">Ramanan</a>
+                                            <p class="text-muted mt-2 mb-0">Chief - International Business</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="col-md-9 mt-4 pt-2">
+                                    <div class="features feature-primary rounded border-0 d-flex">
+                                        <div class="fea-icon im_new rounded-circle text-white shadow avatar avatar-md-sm" >
+                                            <img src="images/client/9.jpg" class="img-fluid rounded shadow" alt="">
+                                        </div>
+            
+                                        <div class="content flex-1 ms-3">
+                                            <a href="page-single-service.html" class="title h5 text-dark">Saravanan</a>
+                                            <p class="text-muted mt-2 mb-0">Chief Marketing Officer</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="me-lg-5">
+                           
+
+                            <div class="row">                                
+                                <div class="col-md-9 mt-4 pt-2">
+                                    <div class="features feature-primary rounded border-0 d-flex">
+                                        <div class="fea-icon im_new rounded-circle text-white shadow avatar avatar-md-sm" >
+                                            <img src="images/client/7.jpg" class="img-fluid rounded shadow" alt="">
+                                        </div>
+            
+                                        <div class="content flex-1 ms-3">
+                                            <a href="page-single-service.html" class="title h5 text-dark">Vignesh</a>
+                                            <p class="text-muted mt-2 mb-0">Business Unit Head- Medical </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                   <!-- <div class="text-center">
+                    <div class="extra_head m-b-55">
+                        <h5>We Provide Life-Changing Video Tutorials</h5>
+                        <a href="about.html" class="btn btn-lg btn-primary">Get Started</a>
+                    </div>
+                </div> -->
+            </div>
+            </div> 
+        </section>
+        
+   
+        
+        <section class="section pre_footer">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-12">
+                        <div class="section-title text-center mb-4 pb-2">
+                            <img class="f-dot" src="images/footer-dot.png" alt="">
+                            <h6>"If somebody offers you an amazing oppurtunity but you are not sure you can do it, say yes - then learn how to do it later!"</h6>
+                            <p>-Richard Branson-</p>
+                                <img class="f-line" src="images/footer-line.png" alt="">
+                           </div>
+                    </div>
+                </div>
+
+                
+            </div>
+        </section>
+        
+
+      
+        <footer class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="footer-py-60">
+                            <div class="row">
+                                <div class="col-lg-4 col-12 mb-0 mb-md-4 pb-0 pb-md-2">
+                                    <a href="#" class="logo-footer">
+                                        <img src="images/Logo.jpg" alt="">
+                                    </a>
+                                    <p class="mt-4">VB complex, 2nd floor, New bus stand to multiplex road, Salem - 636004</p>
+                                    <ul class="list-unstyled social-icon foot-social-icon mb-0 mt-4">
+                                        <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-facebook fea icon-sm fea-social"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg></a></li>
+                                        <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-instagram fea icon-sm fea-social"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg></a></li>
+                                        <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-twitter fea icon-sm fea-social"><path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path></svg></a></li>
+                                        <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-linkedin fea icon-sm fea-social"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg></a></li>
+                                    </ul><!--end icon-->
+                                </div><!--end col-->
+                                
+                                <div class="col-lg-3 col-md-5 col-12 mt-4 mt-sm-0 pt-2 pt-sm-0">
+                                    <h6 class="footer-head">Our Services</h6>
+                                    <ul class="list-unstyled footer-list mt-4">
+                                        <li>Software Development</li>
+                                        <li>Technical Trainings</li>
+                                        <li>Soft Skill Training</li>
+                                        <li>Job Recruitment</li>
+                                    </ul>
+                                </div><!--end col-->
+                                
+                                <div class="col-lg-2 col-md-4 col-12 mt-4 mt-sm-0 pt-2 pt-sm-0">
+                                    <h6 class="footer-head">About Us</h6>
+                                    <ul class="list-unstyled footer-list mt-4">
+                                        <li>Mission & Vision</li>
+                                        <li>Who we are</li>
+                                        <li>How we are</li>
+                                        <li>Our Team</li>
+                                        
+                                    </ul>
+                                </div><!--end col-->
+
+                                <div class="col-lg-3 col-md-4 col-12 mt-4 mt-sm-0 pt-2 pt-sm-0">
+                                    <h6 class="footer-head">Newsletter</h6>
+                                    <p class="mt-4">Sign up and receive the latest tips via email.</p>
+                                    
+                                    <div class="subcribe-form footer-subscribe">
+                                        <form>
+                                            <input name="email" id="email2" type="email" class="form-control rounded-pill shadow" placeholder="Email :" required="">
+                                            <button type="submit" class="btn btn-pills btn-icon btn-primary"><i class="uil uil-search"></i></button>
+                                        </form><!--end form-->
+                                    </div>
+                                </div><!--end col-->
+                            </div><!--end row-->
+                        </div>
+                    </div><!--end col-->
+                </div><!--end row-->
+            </div><!--end container-->
+
+            <div class="footer-py-30 footer-bar">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col">
+                            <div class="text-center">
+                                <p class="mb-0 text-muted">2021 © Future. Design with <i class="mdi mdi-heart text-danger"></i> by <a href="http://turnyourfuture.com/" target="_blank" class="text-reset">turnyourfuture</a>.</p>
+                            </div>
+                        </div><!--end col-->
+                    </div><!--end row-->
+                </div><!--end container-->
+            </div>
+        </footer>
+        <div id="siteseal"><script async type="text/javascript" src="https://seal.godaddy.com/getSeal?sealID=grVHdzX9u5wejD81Y68LCVCTqYMdk42HBfcAJvam50KGzG8tVPzE2XyEmmor"></script></div>
+        <a href="javascript:void(0)" onclick="topFunction()" id="back-to-top" class="back-to-top rounded-pill" style="display: block;"><i class="mdi mdi-arrow-up"></i></a>
+
+        <!-- javascript -->
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <script src="js/tiny-slider.js"></script>
+        <script src="js/tobii.min.js"></script>
+        <script src="js/feather.min.js"></script>
+        <!-- Main Js -->
+        <script src="js/plugins.init.js"></script>
+        <script src="js/app.js"></script>
+    </body>
+
+</html>
